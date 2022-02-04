@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-using RefactorThis.DataAccess;
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.IntegrationTests.Utils;
+namespace ProductsApi.IntegrationTests.Utils;
 
 public class DatabaseBuilder
 {

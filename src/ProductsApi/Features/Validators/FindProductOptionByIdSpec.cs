@@ -1,8 +1,8 @@
 ﻿using Ardalis.Specification;
 
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.Features.Validators;
+namespace ProductsApi.Features.Validators;
 
 public sealed class FindProductOptionByIdSpec : Specification<ProductOption>
 {

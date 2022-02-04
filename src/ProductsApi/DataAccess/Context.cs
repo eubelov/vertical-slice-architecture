@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.DataAccess;
+namespace ProductsApi.DataAccess;
 
 public sealed class Context : DbContext
 {

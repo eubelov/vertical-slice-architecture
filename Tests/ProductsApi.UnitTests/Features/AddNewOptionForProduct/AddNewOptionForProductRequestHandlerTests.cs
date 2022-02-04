@@ -1,10 +1,10 @@
 ﻿using Bogus;
 
-using RefactorThis.Features.AddNewOptionForProduct;
+using ProductsApi.Features.AddNewOptionForProduct;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.AddNewOptionForProduct;
+namespace ProductsApi.UnitTests.Features.AddNewOptionForProduct;
 
 public class AddNewOptionForProductRequestHandlerTests : UnitTestsBaseWithInMemoryContext
 {

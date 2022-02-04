@@ -1,10 +1,10 @@
 ﻿using MediatR;
 
-using RefactorThis.DataAccess.Entities;
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Models;
+using ProductsApi.DataAccess.Entities;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.AddNewOptionForProduct;
+namespace ProductsApi.Features.AddNewOptionForProduct;
 
 internal sealed class AddNewOptionForProductRequestHandler
     : IRequestHandler<AddNewOptionForProductRequest, MediatorResponse<AddNewOptionForProductResponse>>

@@ -4,12 +4,12 @@ using Bogus;
 
 using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.DataAccess.Entities;
-using RefactorThis.IntegrationTests.Utils;
+using ProductsApi.DataAccess.Entities;
+using ProductsApi.IntegrationTests.Utils;
 
 using Xunit;
 
-namespace RefactorThis.IntegrationTests.Endpoints.Products;
+namespace ProductsApi.IntegrationTests.Endpoints.Products;
 
 public class FindProductsTests : IntegrationTestsBase
 {

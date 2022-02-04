@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.FindProducts;
+using ProductsApi.Features.FindProducts;
 
-namespace RefactorThis.Endpoints.Products;
+namespace ProductsApi.Endpoints.Products;
 
 public class FindProducts : EndpointBase
 {

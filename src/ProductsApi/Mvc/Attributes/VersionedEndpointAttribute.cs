@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Mvc.Attributes;
+﻿namespace ProductsApi.Mvc.Attributes;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class VersionedEndpointAttribute : Attribute

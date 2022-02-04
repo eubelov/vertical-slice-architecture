@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Features.Login;
+﻿namespace ProductsApi.Features.Login;
 
 public sealed class LoginResponse
 {

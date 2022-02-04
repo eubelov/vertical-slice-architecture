@@ -2,12 +2,12 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Exceptions;
-using RefactorThis.Models;
-using RefactorThis.Mvc;
-using RefactorThis.Mvc.Attributes;
+using ProductsApi.Exceptions;
+using ProductsApi.Models;
+using ProductsApi.Mvc;
+using ProductsApi.Mvc.Attributes;
 
-namespace RefactorThis.Endpoints;
+namespace ProductsApi.Endpoints;
 
 [ApiController]
 [Produces("application/json")]

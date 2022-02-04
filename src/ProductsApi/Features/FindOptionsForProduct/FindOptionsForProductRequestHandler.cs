@@ -2,10 +2,10 @@
 
 using MediatR;
 
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Models;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.FindOptionsForProduct;
+namespace ProductsApi.Features.FindOptionsForProduct;
 
 internal sealed class FindOptionsForProductRequestHandler
     : IRequestHandler<FindOptionsForProductRequest, MediatorResponse<FindOptionsForProductResponse>>

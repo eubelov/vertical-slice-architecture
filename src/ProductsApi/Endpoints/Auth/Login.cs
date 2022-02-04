@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.Login;
-using RefactorThis.Mvc;
+using ProductsApi.Features.Login;
+using ProductsApi.Mvc;
 
-namespace RefactorThis.Endpoints.Auth;
+namespace ProductsApi.Endpoints.Auth;
 
 public sealed class Login : EndpointBase
 {

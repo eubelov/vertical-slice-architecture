@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Features.CreateProduct;
+﻿namespace ProductsApi.Features.CreateProduct;
 
 public sealed class CreateProductResponse
 {

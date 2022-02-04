@@ -1,9 +1,9 @@
-﻿using RefactorThis.DataAccess.Entities;
-using RefactorThis.Features.DeleteProduct;
+﻿using ProductsApi.DataAccess.Entities;
+using ProductsApi.Features.DeleteProduct;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.DeleteProduct;
+namespace ProductsApi.UnitTests.Features.DeleteProduct;
 
 public class GetProductOptionsByProductIdSpecTests : UnitTestsBaseWithInMemoryContext
 {

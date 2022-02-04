@@ -1,8 +1,8 @@
 ﻿using Ardalis.Specification;
 
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.Features.ValidateApiToken;
+namespace ProductsApi.Features.ValidateApiToken;
 
 public sealed class FindUserByApiTokenSpec : Specification<User>
 {

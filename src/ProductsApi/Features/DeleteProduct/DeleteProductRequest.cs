@@ -1,9 +1,9 @@
 ﻿using MediatR;
 
-using RefactorThis.Attributes;
-using RefactorThis.Models;
+using ProductsApi.Attributes;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.DeleteProduct;
+namespace ProductsApi.Features.DeleteProduct;
 
 [TransactionScope]
 public sealed class DeleteProductRequest : IRequest<MediatorResponse<Unit>>

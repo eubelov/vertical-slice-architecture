@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 
-using RefactorThis.Features.Validators;
+using ProductsApi.Features.Validators;
 
-namespace RefactorThis.Features.DeleteProductOption;
+namespace ProductsApi.Features.DeleteProductOption;
 
 public sealed class DeleteProductOptionRequestValidator : AbstractValidator<DeleteProductOptionRequest>
 {

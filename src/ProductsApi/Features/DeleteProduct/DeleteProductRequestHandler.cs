@@ -1,10 +1,10 @@
 ﻿using MediatR;
 
-using RefactorThis.DataAccess.Entities;
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Models;
+using ProductsApi.DataAccess.Entities;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.DeleteProduct;
+namespace ProductsApi.Features.DeleteProduct;
 
 internal sealed class DeleteProductRequestHandler : IRequestHandler<DeleteProductRequest, MediatorResponse<Unit>>
 {

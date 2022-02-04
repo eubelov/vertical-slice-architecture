@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Providers;
+﻿namespace ProductsApi.Providers;
 
 public sealed class DateTimeProvider : IDateTimeProvider
 {

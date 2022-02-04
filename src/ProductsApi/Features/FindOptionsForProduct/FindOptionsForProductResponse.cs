@@ -1,4 +1,4 @@
-namespace RefactorThis.Features.FindOptionsForProduct;
+namespace ProductsApi.Features.FindOptionsForProduct;
 
 public sealed class FindOptionsForProductResponse
 {

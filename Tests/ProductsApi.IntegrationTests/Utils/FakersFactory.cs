@@ -1,8 +1,8 @@
 ﻿using Bogus;
 
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.IntegrationTests.Utils;
+namespace ProductsApi.IntegrationTests.Utils;
 
 public static class FakersFactory
 {

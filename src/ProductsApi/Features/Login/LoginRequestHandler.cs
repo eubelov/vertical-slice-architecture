@@ -1,12 +1,12 @@
 ﻿using MediatR;
 
-using RefactorThis.DataAccess.Entities;
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Metrics;
-using RefactorThis.Models;
-using RefactorThis.Providers;
+using ProductsApi.DataAccess.Entities;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Metrics;
+using ProductsApi.Models;
+using ProductsApi.Providers;
 
-namespace RefactorThis.Features.Login;
+namespace ProductsApi.Features.Login;
 
 public sealed class LoginRequestHandler : IRequestHandler<LoginRequest, MediatorResponse<LoginResponse>>
 {

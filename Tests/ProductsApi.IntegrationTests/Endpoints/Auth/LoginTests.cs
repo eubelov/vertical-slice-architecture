@@ -2,13 +2,13 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.Login;
-using RefactorThis.IntegrationTests.Utils;
-using RefactorThis.Metrics;
+using ProductsApi.Features.Login;
+using ProductsApi.IntegrationTests.Utils;
+using ProductsApi.Metrics;
 
 using Xunit;
 
-namespace RefactorThis.IntegrationTests.Endpoints.Auth;
+namespace ProductsApi.IntegrationTests.Endpoints.Auth;
 
 public class LoginTests : IntegrationTestsBase
 {

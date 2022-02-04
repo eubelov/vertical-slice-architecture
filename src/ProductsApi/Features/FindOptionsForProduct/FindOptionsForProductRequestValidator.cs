@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 
-using RefactorThis.Features.Validators;
+using ProductsApi.Features.Validators;
 
-namespace RefactorThis.Features.FindOptionsForProduct;
+namespace ProductsApi.Features.FindOptionsForProduct;
 
 public sealed class FindOptionsForProductRequestValidator : AbstractValidator<FindOptionsForProductRequest>
 {

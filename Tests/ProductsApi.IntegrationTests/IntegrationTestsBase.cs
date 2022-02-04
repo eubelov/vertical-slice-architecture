@@ -7,12 +7,12 @@ using Microsoft.Extensions.DependencyInjection;
 
 using Newtonsoft.Json;
 
-using RefactorThis.DataAccess;
-using RefactorThis.IntegrationTests.Utils;
+using ProductsApi.DataAccess;
+using ProductsApi.IntegrationTests.Utils;
 
 using Xunit;
 
-namespace RefactorThis.IntegrationTests;
+namespace ProductsApi.IntegrationTests;
 
 public abstract class IntegrationTestsBase : IClassFixture<CustomWebApplicationFactory<Startup>>
 {

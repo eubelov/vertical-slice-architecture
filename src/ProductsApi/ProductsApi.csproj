@@ -7,7 +7,6 @@
     <ServerGarbageCollection>true</ServerGarbageCollection>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <UserSecretsId>f47ba344-123c-41a8-b5bb-f88b1987293a</UserSecretsId>
-    <RootNamespace>RefactorThis</RootNamespace>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 

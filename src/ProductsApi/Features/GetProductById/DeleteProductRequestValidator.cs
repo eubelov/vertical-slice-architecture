@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 
-using RefactorThis.Features.Validators;
+using ProductsApi.Features.Validators;
 
-namespace RefactorThis.Features.GetProductById;
+namespace ProductsApi.Features.GetProductById;
 
 public sealed class GetProductByIdRequestValidator : AbstractValidator<GetProductByIdRequest>
 {

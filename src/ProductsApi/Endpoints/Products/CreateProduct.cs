@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.CreateProduct;
+using ProductsApi.Features.CreateProduct;
 
-namespace RefactorThis.Endpoints.Products;
+namespace ProductsApi.Endpoints.Products;
 
 public class CreateProduct : EndpointBase
 {

@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-using RefactorThis.Models;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.CreateProduct;
+namespace ProductsApi.Features.CreateProduct;
 
 public sealed class CreateProductRequest : IRequest<MediatorResponse<CreateProductResponse>>
 {

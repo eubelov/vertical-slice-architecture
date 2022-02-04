@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Results;
 
-namespace RefactorThis.Models;
+namespace ProductsApi.Models;
 
 public sealed class EntityNotFoundValidationFailure : ValidationFailure
 {

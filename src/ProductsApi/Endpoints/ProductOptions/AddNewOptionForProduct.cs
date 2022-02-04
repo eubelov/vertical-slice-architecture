@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.AddNewOptionForProduct;
+using ProductsApi.Features.AddNewOptionForProduct;
 
-namespace RefactorThis.Endpoints.ProductOptions;
+namespace ProductsApi.Endpoints.ProductOptions;
 
 public class AddNewOptionForProduct : EndpointBase
 {

@@ -1,12 +1,12 @@
 ﻿using FluentValidation.TestHelper;
 
-using RefactorThis.Features.DeleteProductOption;
-using RefactorThis.Features.Validators;
-using RefactorThis.Models;
+using ProductsApi.Features.DeleteProductOption;
+using ProductsApi.Features.Validators;
+using ProductsApi.Models;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.DeleteProductOption;
+namespace ProductsApi.UnitTests.Features.DeleteProductOption;
 
 public class DeleteProductOptionRequestValidatorTests : UnitTestsBaseWithInMemoryContext
 {

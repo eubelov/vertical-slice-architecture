@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Features.GetProductById;
+﻿namespace ProductsApi.Features.GetProductById;
 
 public sealed class GetProductByIdResponse
 {

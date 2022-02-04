@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc.Routing;
 
-using RefactorThis.Mvc.Attributes;
+using ProductsApi.Mvc.Attributes;
 
-namespace RefactorThis.Mvc.Extensions;
+namespace ProductsApi.Mvc.Extensions;
 
 public static class MvcOptionsRouteExtensions
 {

@@ -6,9 +6,9 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
 using Moq.AutoMock;
 
-using RefactorThis.Providers;
+using ProductsApi.Providers;
 
-namespace RefactorThis.UnitTests;
+namespace ProductsApi.UnitTests;
 
 public class UnitTestBase
 {

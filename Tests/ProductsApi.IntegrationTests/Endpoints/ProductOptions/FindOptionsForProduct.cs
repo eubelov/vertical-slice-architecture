@@ -2,12 +2,12 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.DataAccess.Entities;
-using RefactorThis.IntegrationTests.Utils;
+using ProductsApi.DataAccess.Entities;
+using ProductsApi.IntegrationTests.Utils;
 
 using Xunit;
 
-namespace RefactorThis.IntegrationTests.Endpoints.ProductOptions;
+namespace ProductsApi.IntegrationTests.Endpoints.ProductOptions;
 
 public class FindOptionsForProduct : IntegrationTestsBase
 {

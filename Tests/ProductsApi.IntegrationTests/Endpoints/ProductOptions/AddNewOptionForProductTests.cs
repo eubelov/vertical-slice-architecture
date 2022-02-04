@@ -4,11 +4,11 @@ using Bogus;
 
 using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.IntegrationTests.Utils;
+using ProductsApi.IntegrationTests.Utils;
 
 using Xunit;
 
-namespace RefactorThis.IntegrationTests.Endpoints.ProductOptions;
+namespace ProductsApi.IntegrationTests.Endpoints.ProductOptions;
 
 public class AddNewOptionForProductTests : IntegrationTestsBase
 {

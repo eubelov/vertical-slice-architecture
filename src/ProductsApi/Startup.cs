@@ -11,20 +11,20 @@ using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
-using Prometheus;
+using ProductsApi.DataAccess;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Mvc;
+using ProductsApi.Mvc.Extensions;
+using ProductsApi.Mvc.Filters;
+using ProductsApi.Mvc.Middlewares;
+using ProductsApi.Providers;
+using ProductsApi.RequestsPipeline;
 
-using RefactorThis.DataAccess;
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Mvc;
-using RefactorThis.Mvc.Extensions;
-using RefactorThis.Mvc.Filters;
-using RefactorThis.Mvc.Middlewares;
-using RefactorThis.Providers;
-using RefactorThis.RequestsPipeline;
+using Prometheus;
 
 using Serilog;
 
-namespace RefactorThis;
+namespace ProductsApi;
 
 public class Startup
 {

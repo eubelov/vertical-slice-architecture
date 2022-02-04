@@ -1,6 +1,6 @@
 ﻿using Ardalis.Specification;
 
-namespace RefactorThis.DataAccess.EntityService;
+namespace ProductsApi.DataAccess.EntityService;
 
 public interface IEntityService
 {

@@ -1,6 +1,6 @@
 ﻿using Prometheus;
 
-namespace RefactorThis.Metrics;
+namespace ProductsApi.Metrics;
 
 public static class ApiMetrics
 {

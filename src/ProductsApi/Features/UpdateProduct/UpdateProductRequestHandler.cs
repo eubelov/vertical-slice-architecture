@@ -2,11 +2,11 @@
 
 using MediatR;
 
-using RefactorThis.DataAccess.Entities;
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Models;
+using ProductsApi.DataAccess.Entities;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.UpdateProduct;
+namespace ProductsApi.Features.UpdateProduct;
 
 internal sealed class UpdateProductRequestHandler : IRequestHandler<UpdateProductRequest, MediatorResponse<Unit>>
 {

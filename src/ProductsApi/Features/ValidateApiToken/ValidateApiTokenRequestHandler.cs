@@ -1,10 +1,10 @@
 ﻿using MediatR;
 
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Models;
-using RefactorThis.Providers;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Models;
+using ProductsApi.Providers;
 
-namespace RefactorThis.Features.ValidateApiToken;
+namespace ProductsApi.Features.ValidateApiToken;
 
 internal sealed class ValidateApiTokenRequestHandler : IRequestHandler<ValidateApiTokenRequest, MediatorResponse<bool>>
 {

@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.DataAccess.Entities;
+﻿namespace ProductsApi.DataAccess.Entities;
 
 public sealed class Product
 {

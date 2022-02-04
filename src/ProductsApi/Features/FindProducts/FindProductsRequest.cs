@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-using RefactorThis.Models;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.FindProducts;
+namespace ProductsApi.Features.FindProducts;
 
 public sealed class FindProductsRequest : IRequest<MediatorResponse<FindProductsResponse>>
 {

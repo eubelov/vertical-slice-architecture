@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 
-using RefactorThis.Features.Validators;
+using ProductsApi.Features.Validators;
 
-namespace RefactorThis.Features.AddNewOptionForProduct;
+namespace ProductsApi.Features.AddNewOptionForProduct;
 
 public sealed class AddNewOptionForProductRequestValidator : AbstractValidator<AddNewOptionForProductRequest>
 {

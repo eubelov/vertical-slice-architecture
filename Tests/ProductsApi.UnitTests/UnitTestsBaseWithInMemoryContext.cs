@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-using RefactorThis.DataAccess;
-using RefactorThis.DataAccess.EntityService;
+using ProductsApi.DataAccess;
+using ProductsApi.DataAccess.EntityService;
 
-namespace RefactorThis.UnitTests;
+namespace ProductsApi.UnitTests;
 
 public class UnitTestsBaseWithInMemoryContext : UnitTestBase
 {

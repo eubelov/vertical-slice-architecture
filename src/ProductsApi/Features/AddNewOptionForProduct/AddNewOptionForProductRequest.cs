@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-using RefactorThis.Models;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.AddNewOptionForProduct;
+namespace ProductsApi.Features.AddNewOptionForProduct;
 
 public sealed class AddNewOptionForProductRequest : IRequest<MediatorResponse<AddNewOptionForProductResponse>>
 {

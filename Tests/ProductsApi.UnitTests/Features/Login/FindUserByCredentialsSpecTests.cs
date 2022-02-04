@@ -1,9 +1,9 @@
-﻿using RefactorThis.DataAccess.Entities;
-using RefactorThis.Features.Login;
+﻿using ProductsApi.DataAccess.Entities;
+using ProductsApi.Features.Login;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.Login;
+namespace ProductsApi.UnitTests.Features.Login;
 
 public class FindUserByCredentialsSpecTests : UnitTestsBaseWithInMemoryContext
 {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 
-using RefactorThis.Metrics;
+using ProductsApi.Metrics;
 
-namespace RefactorThis.Mvc.Filters;
+namespace ProductsApi.Mvc.Filters;
 
 public sealed class HttpResponseExceptionFilter : IAsyncActionFilter
 {

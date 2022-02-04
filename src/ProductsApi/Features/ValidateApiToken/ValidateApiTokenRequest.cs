@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-using RefactorThis.Models;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.ValidateApiToken;
+namespace ProductsApi.Features.ValidateApiToken;
 
 public sealed class ValidateApiTokenRequest : IRequest<MediatorResponse<bool>>
 {

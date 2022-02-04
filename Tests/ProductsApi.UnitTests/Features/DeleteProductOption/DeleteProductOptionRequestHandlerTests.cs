@@ -1,8 +1,8 @@
-﻿using RefactorThis.Features.DeleteProductOption;
+﻿using ProductsApi.Features.DeleteProductOption;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.DeleteProductOption;
+namespace ProductsApi.UnitTests.Features.DeleteProductOption;
 
 public class DeleteProductOptionRequestHandlerTests : UnitTestsBaseWithInMemoryContext
 {

@@ -1,9 +1,9 @@
-﻿using RefactorThis.DataAccess.Entities;
-using RefactorThis.Features.Validators;
+﻿using ProductsApi.DataAccess.Entities;
+using ProductsApi.Features.Validators;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.Validators;
+namespace ProductsApi.UnitTests.Features.Validators;
 
 public class FindProductOptionByIdSpecTests : UnitTestsBaseWithInMemoryContext
 {

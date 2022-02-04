@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.IntegrationTests.Utils;
+﻿namespace ProductsApi.IntegrationTests.Utils;
 
 public class Constants
 {

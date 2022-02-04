@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
 
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Models;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.Validators;
+namespace ProductsApi.Features.Validators;
 
 public sealed class ProductExistsValidator : AbstractValidator<Guid>
 {

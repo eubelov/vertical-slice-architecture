@@ -1,9 +1,9 @@
-﻿using RefactorThis.DataAccess.Entities;
-using RefactorThis.Features.FindOptionsForProduct;
+﻿using ProductsApi.DataAccess.Entities;
+using ProductsApi.Features.FindOptionsForProduct;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.FindOptionsForProduct;
+namespace ProductsApi.UnitTests.Features.FindOptionsForProduct;
 
 public class GetProductOptionsByProductIdSpecTests : UnitTestsBaseWithInMemoryContext
 {

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace RefactorThis.Features.CreateProduct;
+namespace ProductsApi.Features.CreateProduct;
 
 public sealed class CreateProductRequestValidator : AbstractValidator<CreateProductRequest>
 {

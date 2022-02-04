@@ -2,10 +2,10 @@
 
 using MediatR;
 
-using RefactorThis.Attributes;
-using RefactorThis.DataAccess;
+using ProductsApi.Attributes;
+using ProductsApi.DataAccess;
 
-namespace RefactorThis.RequestsPipeline;
+namespace ProductsApi.RequestsPipeline;
 
 public sealed class TransactionScopeBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

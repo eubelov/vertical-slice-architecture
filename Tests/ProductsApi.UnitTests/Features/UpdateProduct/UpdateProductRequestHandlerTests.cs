@@ -1,11 +1,11 @@
 ﻿using Bogus;
 
-using RefactorThis.DataAccess.Entities;
-using RefactorThis.Features.UpdateProduct;
+using ProductsApi.DataAccess.Entities;
+using ProductsApi.Features.UpdateProduct;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.UpdateProduct;
+namespace ProductsApi.UnitTests.Features.UpdateProduct;
 
 public class UpdateProductRequestHandlerTests : UnitTestsBaseWithInMemoryContext
 {

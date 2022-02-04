@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-using RefactorThis.Models;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.GetProductById;
+namespace ProductsApi.Features.GetProductById;
 
 public sealed class GetProductByIdRequest : IRequest<MediatorResponse<GetProductByIdResponse>>
 {

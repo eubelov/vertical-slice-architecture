@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.DeleteProduct;
+using ProductsApi.Features.DeleteProduct;
 
-namespace RefactorThis.Endpoints.Products;
+namespace ProductsApi.Endpoints.Products;
 
 public class DeleteProduct : EndpointBase
 {

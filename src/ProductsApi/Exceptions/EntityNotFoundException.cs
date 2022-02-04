@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Exceptions;
+﻿namespace ProductsApi.Exceptions;
 
 public class EntityNotFoundException : BaseException
 {

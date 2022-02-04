@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.DataAccess.EntityConfigurations;
+namespace ProductsApi.DataAccess.EntityConfigurations;
 
 public sealed class UserConfiguration : IEntityTypeConfiguration<User>
 {

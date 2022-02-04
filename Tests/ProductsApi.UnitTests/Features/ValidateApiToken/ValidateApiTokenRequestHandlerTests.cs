@@ -1,8 +1,8 @@
-﻿using RefactorThis.Features.ValidateApiToken;
+﻿using ProductsApi.Features.ValidateApiToken;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.ValidateApiToken;
+namespace ProductsApi.UnitTests.Features.ValidateApiToken;
 
 public class ValidateApiTokenRequestHandlerTests : UnitTestsBaseWithInMemoryContext
 {

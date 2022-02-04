@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Features.FindProducts;
+﻿namespace ProductsApi.Features.FindProducts;
 
 public sealed class FindProductsResponse
 {

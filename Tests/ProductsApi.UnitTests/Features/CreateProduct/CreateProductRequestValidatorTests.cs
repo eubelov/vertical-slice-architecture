@@ -2,11 +2,11 @@
 
 using FluentValidation.TestHelper;
 
-using RefactorThis.Features.CreateProduct;
+using ProductsApi.Features.CreateProduct;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.CreateProduct;
+namespace ProductsApi.UnitTests.Features.CreateProduct;
 
 public class CreateProductRequestValidatorTests : UnitTestBase
 {

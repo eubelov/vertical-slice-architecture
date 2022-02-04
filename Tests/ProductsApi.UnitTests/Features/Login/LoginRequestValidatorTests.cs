@@ -1,10 +1,10 @@
 ﻿using FluentValidation.TestHelper;
 
-using RefactorThis.Features.Login;
+using ProductsApi.Features.Login;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.Login;
+namespace ProductsApi.UnitTests.Features.Login;
 
 public class LoginRequestValidatorTests : UnitTestBase
 {

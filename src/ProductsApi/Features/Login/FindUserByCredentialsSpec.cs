@@ -1,8 +1,8 @@
 ﻿using Ardalis.Specification;
 
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.Features.Login;
+namespace ProductsApi.Features.Login;
 
 public sealed class FindUserByCredentialsSpec : Specification<User>, ISingleResultSpecification
 {

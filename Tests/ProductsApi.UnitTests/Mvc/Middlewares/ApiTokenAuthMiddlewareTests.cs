@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.Http.Features;
 
 using Moq;
 
-using RefactorThis.Features.ValidateApiToken;
-using RefactorThis.Mvc.Middlewares;
+using ProductsApi.Features.ValidateApiToken;
+using ProductsApi.Mvc.Middlewares;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Mvc.Middlewares;
+namespace ProductsApi.UnitTests.Mvc.Middlewares;
 
 public class ApiTokenAuthMiddlewareTests : UnitTestBase
 {

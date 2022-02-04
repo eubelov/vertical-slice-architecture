@@ -2,10 +2,10 @@
 
 using MediatR;
 
-using RefactorThis.Exceptions;
-using RefactorThis.Models;
+using ProductsApi.Exceptions;
+using ProductsApi.Models;
 
-namespace RefactorThis.RequestsPipeline;
+namespace ProductsApi.RequestsPipeline;
 
 public sealed class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

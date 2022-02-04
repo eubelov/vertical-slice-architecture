@@ -1,9 +1,9 @@
-﻿using RefactorThis.Features.Login;
-using RefactorThis.Metrics;
+﻿using ProductsApi.Features.Login;
+using ProductsApi.Metrics;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.Login;
+namespace ProductsApi.UnitTests.Features.Login;
 
 public class LoginRequestHandlerTests : UnitTestsBaseWithInMemoryContext
 {

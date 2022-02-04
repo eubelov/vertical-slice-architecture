@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-using RefactorThis.Models;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.UpdateProduct;
+namespace ProductsApi.Features.UpdateProduct;
 
 public sealed class UpdateProductRequest : IRequest<MediatorResponse<Unit>>
 {

@@ -2,13 +2,13 @@
 
 using Moq;
 
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Features.Validators;
-using RefactorThis.Models;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Features.Validators;
+using ProductsApi.Models;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.Validators;
+namespace ProductsApi.UnitTests.Features.Validators;
 
 public class ProductExistsValidatorTests : UnitTestBase
 {

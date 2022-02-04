@@ -1,7 +1,7 @@
 ﻿using Serilog;
 using Serilog.Sinks.SystemConsole.Themes;
 
-namespace RefactorThis.Mvc.Extensions;
+namespace ProductsApi.Mvc.Extensions;
 
 public class LoggingExtensions
 {

@@ -3,9 +3,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.Features;
 
-using RefactorThis.Features.ValidateApiToken;
+using ProductsApi.Features.ValidateApiToken;
 
-namespace RefactorThis.Mvc.Middlewares;
+namespace ProductsApi.Mvc.Middlewares;
 
 internal sealed class ApiTokenAuthMiddleware
 {

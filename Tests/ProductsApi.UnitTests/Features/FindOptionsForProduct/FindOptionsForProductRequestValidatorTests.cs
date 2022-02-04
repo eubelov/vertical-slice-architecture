@@ -1,12 +1,12 @@
 ﻿using FluentValidation.TestHelper;
 
-using RefactorThis.Features.FindOptionsForProduct;
-using RefactorThis.Features.Validators;
-using RefactorThis.Models;
+using ProductsApi.Features.FindOptionsForProduct;
+using ProductsApi.Features.Validators;
+using ProductsApi.Models;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.FindOptionsForProduct;
+namespace ProductsApi.UnitTests.Features.FindOptionsForProduct;
 
 public class FindOptionsForProductRequestValidatorTests : UnitTestsBaseWithInMemoryContext
 {

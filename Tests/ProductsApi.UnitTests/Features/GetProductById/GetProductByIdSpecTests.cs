@@ -1,9 +1,9 @@
-﻿using RefactorThis.DataAccess.Entities;
-using RefactorThis.Features.GetProductById;
+﻿using ProductsApi.DataAccess.Entities;
+using ProductsApi.Features.GetProductById;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.GetProductById;
+namespace ProductsApi.UnitTests.Features.GetProductById;
 
 public class GetProductByIdSpecTests : UnitTestsBaseWithInMemoryContext
 {

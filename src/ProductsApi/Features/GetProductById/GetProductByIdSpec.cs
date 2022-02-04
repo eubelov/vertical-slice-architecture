@@ -1,8 +1,8 @@
 ﻿using Ardalis.Specification;
 
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.Features.GetProductById;
+namespace ProductsApi.Features.GetProductById;
 
 public sealed class GetProductByIdSpec : Specification<Product>, ISingleResultSpecification
 {

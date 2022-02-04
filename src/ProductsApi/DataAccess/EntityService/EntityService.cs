@@ -3,7 +3,7 @@ using Ardalis.Specification.EntityFrameworkCore;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace RefactorThis.DataAccess.EntityService;
+namespace ProductsApi.DataAccess.EntityService;
 
 public sealed class EntityService : IEntityService, IReadOnlyEntityService
 {

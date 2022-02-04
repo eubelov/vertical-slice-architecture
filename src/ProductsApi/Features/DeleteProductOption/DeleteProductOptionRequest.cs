@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-using RefactorThis.Models;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.DeleteProductOption;
+namespace ProductsApi.Features.DeleteProductOption;
 
 public sealed class DeleteProductOptionRequest : IRequest<MediatorResponse<Unit>>
 {

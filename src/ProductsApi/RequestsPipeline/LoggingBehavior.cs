@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace RefactorThis.RequestsPipeline;
+namespace ProductsApi.RequestsPipeline;
 
 public sealed class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

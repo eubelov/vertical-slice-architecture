@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Models;
+﻿namespace ProductsApi.Models;
 
 public class MediatorResponse
 {

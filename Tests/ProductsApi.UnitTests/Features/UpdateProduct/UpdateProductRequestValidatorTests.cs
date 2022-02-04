@@ -2,13 +2,13 @@
 
 using FluentValidation.TestHelper;
 
-using RefactorThis.Features.UpdateProduct;
-using RefactorThis.Features.Validators;
-using RefactorThis.Models;
+using ProductsApi.Features.UpdateProduct;
+using ProductsApi.Features.Validators;
+using ProductsApi.Models;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.UpdateProduct;
+namespace ProductsApi.UnitTests.Features.UpdateProduct;
 
 public class UpdateProductRequestValidatorTests : UnitTestsBaseWithInMemoryContext
 {

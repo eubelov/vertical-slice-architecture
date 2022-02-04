@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Mvc;
+using ProductsApi.Mvc;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Mvc;
+namespace ProductsApi.UnitTests.Mvc;
 
 public class HttpResponseFactoryTests
 {

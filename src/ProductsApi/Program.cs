@@ -1,6 +1,6 @@
 ﻿using Serilog;
 
-namespace RefactorThis;
+namespace ProductsApi;
 
 public class Program
 {

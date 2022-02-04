@@ -1,10 +1,10 @@
 ﻿using FluentValidation.TestHelper;
 
-using RefactorThis.Features.FindProducts;
+using ProductsApi.Features.FindProducts;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.FindProducts;
+namespace ProductsApi.UnitTests.Features.FindProducts;
 
 public class FindProductsRequestValidatorTests : UnitTestBase
 {

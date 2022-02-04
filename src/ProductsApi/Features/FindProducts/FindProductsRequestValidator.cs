@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace RefactorThis.Features.FindProducts;
+namespace ProductsApi.Features.FindProducts;
 
 public sealed class FindProductsRequestValidator : AbstractValidator<FindProductsRequest>
 {

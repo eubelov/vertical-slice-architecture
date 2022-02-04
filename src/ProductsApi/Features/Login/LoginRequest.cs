@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-using RefactorThis.Models;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.Login;
+namespace ProductsApi.Features.Login;
 
 public sealed class LoginRequest : IRequest<MediatorResponse<LoginResponse>>
 {

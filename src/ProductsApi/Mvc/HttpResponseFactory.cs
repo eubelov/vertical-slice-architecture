@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Exceptions;
+using ProductsApi.Exceptions;
 
-namespace RefactorThis.Mvc;
+namespace ProductsApi.Mvc;
 
 public class HttpResponseFactory
 {

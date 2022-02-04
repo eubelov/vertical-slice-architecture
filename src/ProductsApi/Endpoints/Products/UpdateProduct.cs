@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.UpdateProduct;
+using ProductsApi.Features.UpdateProduct;
 
-namespace RefactorThis.Endpoints.Products;
+namespace ProductsApi.Endpoints.Products;
 
 public class UpdateProduct : EndpointBase
 {

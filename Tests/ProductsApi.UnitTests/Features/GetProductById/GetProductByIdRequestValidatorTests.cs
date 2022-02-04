@@ -1,12 +1,12 @@
 ﻿using FluentValidation.TestHelper;
 
-using RefactorThis.Features.GetProductById;
-using RefactorThis.Features.Validators;
-using RefactorThis.Models;
+using ProductsApi.Features.GetProductById;
+using ProductsApi.Features.Validators;
+using ProductsApi.Models;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.GetProductById;
+namespace ProductsApi.UnitTests.Features.GetProductById;
 
 public class GetProductByIdRequestValidatorTests : UnitTestsBaseWithInMemoryContext
 {

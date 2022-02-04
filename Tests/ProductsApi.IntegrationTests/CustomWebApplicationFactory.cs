@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-using RefactorThis.IntegrationTests.Utils;
+using ProductsApi.IntegrationTests.Utils;
 
-namespace RefactorThis.IntegrationTests;
+namespace ProductsApi.IntegrationTests;
 
 public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<TStartup>
     where TStartup : class

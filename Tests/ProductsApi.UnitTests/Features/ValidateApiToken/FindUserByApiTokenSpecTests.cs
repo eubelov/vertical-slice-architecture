@@ -1,9 +1,9 @@
-﻿using RefactorThis.DataAccess.Entities;
-using RefactorThis.Features.ValidateApiToken;
+﻿using ProductsApi.DataAccess.Entities;
+using ProductsApi.Features.ValidateApiToken;
 
 using Xunit;
 
-namespace RefactorThis.UnitTests.Features.ValidateApiToken;
+namespace ProductsApi.UnitTests.Features.ValidateApiToken;
 
 public class FindUserByApiTokenSpecTests : UnitTestsBaseWithInMemoryContext
 {

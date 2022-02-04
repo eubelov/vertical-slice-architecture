@@ -2,11 +2,11 @@
 
 using MediatR;
 
-using RefactorThis.DataAccess.Entities;
-using RefactorThis.DataAccess.EntityService;
-using RefactorThis.Models;
+using ProductsApi.DataAccess.Entities;
+using ProductsApi.DataAccess.EntityService;
+using ProductsApi.Models;
 
-namespace RefactorThis.Features.CreateProduct;
+namespace ProductsApi.Features.CreateProduct;
 
 internal sealed class CreateProductRequestHandler : IRequestHandler<CreateProductRequest, MediatorResponse<CreateProductResponse>>
 {

@@ -1,4 +1,4 @@
-﻿namespace RefactorThis.Features.AddNewOptionForProduct;
+﻿namespace ProductsApi.Features.AddNewOptionForProduct;
 
 public sealed class AddNewOptionForProductResponse
 {

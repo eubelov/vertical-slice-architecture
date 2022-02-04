@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.DeleteProductOption;
+using ProductsApi.Features.DeleteProductOption;
 
-namespace RefactorThis.Endpoints.ProductOptions;
+namespace ProductsApi.Endpoints.ProductOptions;
 
 public sealed class DeleteProductOption : EndpointBase
 {

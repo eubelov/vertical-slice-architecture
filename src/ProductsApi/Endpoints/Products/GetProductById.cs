@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RefactorThis.Features.GetProductById;
+using ProductsApi.Features.GetProductById;
 
-namespace RefactorThis.Endpoints.Products;
+namespace ProductsApi.Endpoints.Products;
 
 public class GetProductById : EndpointBase
 {

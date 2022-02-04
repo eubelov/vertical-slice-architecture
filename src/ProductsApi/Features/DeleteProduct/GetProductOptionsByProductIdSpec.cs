@@ -1,8 +1,8 @@
 ﻿using Ardalis.Specification;
 
-using RefactorThis.DataAccess.Entities;
+using ProductsApi.DataAccess.Entities;
 
-namespace RefactorThis.Features.DeleteProduct;
+namespace ProductsApi.Features.DeleteProduct;
 
 public sealed class GetProductOptionsByProductIdSpec : Specification<ProductOption>
 {
